@@ -1,0 +1,24 @@
+{
+  "name": "iot",
+  "description": "Iot config",
+  "scripts": {
+  },
+  "env": {
+    "io1": {
+      "required": true
+    },
+    "io2": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "cloudmqtt"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
